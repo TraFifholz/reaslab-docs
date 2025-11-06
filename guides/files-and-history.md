@@ -30,8 +30,6 @@ Background autosave keeps snapshots current so you can recover work even if coll
 
 ## Rename project
 
-![Rename in Files tree](/images/rename-project.png)
-
 - In the Files tree, double‑click the project root name to rename it in place.
 
 ![Rename in Dashboard](/images/rename-project.png)
