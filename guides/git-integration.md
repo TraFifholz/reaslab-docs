@@ -4,11 +4,11 @@ title: Git Integration
 
 # Git integration
 
-Keep your Reaslab projects synchronized with Git repositories using built-in push and pull operations. This guide covers the available Git functionality and how to configure remote repositories.
+Keep your ReasLab projects synchronized with Git repositories using built-in push and pull operations. This guide covers the available Git functionality and how to configure remote repositories.
 
 ## Git synchronization
 
-After importing a Git repository or setting up a remote URL, you can synchronize your Reaslab project with the remote repository using basic operations.
+After importing a Git repository or setting up a remote URL, you can synchronize your ReasLab project with the remote repository using basic operations.
 
 Note: If you're signed in with GitHub and imported your own repository, push and pull work without additional configuration.
 
@@ -26,7 +26,7 @@ Git sync operations are available from the editor menu:
 - Displays success confirmation when complete
 - Requires proper Git credentials and remote URL configuration
 
-#### Sync Pull From Remote  
+#### Sync Pull From Remote
 - Pulls the latest changes from the configured Git remote repository
 - Shows a loading notification while pulling
 - Displays success confirmation when complete
@@ -47,7 +47,7 @@ Configure authentication for accessing private repositories:
 
 ## Import from Git repositories
 
-Create new Reaslab projects from existing Git repositories:
+Create new ReasLab projects from existing Git repositories:
 
 1. **GitHub integration**: Link your GitHub account to automatically list your Lean repositories
 2. **Manual import**: Paste any Git URL to import from other platforms
@@ -59,19 +59,19 @@ The Git integration provides essential synchronization functionality with some l
 
 ### Available features
 - ✅ Push changes to remote repository
-- ✅ Pull changes from remote repository  
+- ✅ Pull changes from remote repository
 - ✅ Configure remote URL and credentials
 - ✅ Import projects from Git repositories
 - ✅ GitHub account integration
 
 ### Not currently supported
 - ❌ Branch management (switching, creating, merging)
-- ❌ Commit history viewing within Reaslab
+- ❌ Commit history viewing within ReasLab
 - ❌ Visual conflict resolution interface
 - ❌ Advanced Git operations (rebase, stash, cherry-pick)
 - ❌ Git diff visualization
 - ❌ Commit message customization
 
- 
 
-For advanced Git operations beyond basic sync, use external Git tools alongside Reaslab's collaborative editing environment.
+
+For advanced Git operations beyond basic sync, use external Git tools alongside ReasLab's collaborative editing environment.

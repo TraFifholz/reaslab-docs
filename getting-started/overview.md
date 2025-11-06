@@ -4,7 +4,7 @@ title: Overview
 
 # Overview
 
-Reaslab is a browser‑based interactive theorem proving platform built on Lean 4. It supports formal verification and formal methods for mathematical research and software/algorithm verification, with a proof assistant workflow grounded in dependent type theory. This overview introduces the core areas of the interface and points you toward the guides that dive deeper into each feature set.
+ReasLab is a browser‑based interactive theorem proving platform built on Lean 4. It supports formal verification and formal methods for mathematical research and software/algorithm verification, with a proof assistant workflow grounded in dependent type theory. This overview introduces the core areas of the interface and points you toward the guides that dive deeper into each feature set.
 
 ## What is theorem proving?
 
@@ -12,7 +12,7 @@ In an interactive theorem prover, you construct proofs step‑by‑step using ta
 
 ## Before you begin
 
-- Create or sign in to your Reaslab account.
+- Create or sign in to your ReasLab account.
 - Decide whether you are creating a new project, importing from Git, or joining via a share link.
 - Confirm browser support: the latest Chrome, Edge, or Safari versions provide the best experience.
 
@@ -27,7 +27,7 @@ In an interactive theorem prover, you construct proofs step‑by‑step using ta
 
 ## Workspace layout
 
-Reaslab centers Lean editing around a few core panes that stay in sync while you type:
+ReasLab centers Lean editing around a few core panes that stay in sync while you type:
 
 ### Top bar and tabs
 - Use the Project Menu for global actions.

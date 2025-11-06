@@ -4,7 +4,7 @@ title: Glossary
 
 # Glossary
 
-Short definitions for common terms used in Reaslab and the Lean ecosystem to help new users and improve search discoverability.
+Short definitions for common terms used in ReasLab and the Lean ecosystem to help new users and improve search discoverability.
 
 ## Theorem proving
 - Using logic and formal rules to construct machine‑checked mathematical proofs.
@@ -38,4 +38,3 @@ Short definitions for common terms used in Reaslab and the Lean ecosystem to hel
 
 ## Infoview
 - The Lean panel showing goals, hypotheses, messages, and proof state information in real time.
-

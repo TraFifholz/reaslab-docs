@@ -4,7 +4,7 @@ title: Lean Tooling
 
 # Lean Tooling
 
-Reaslab bundles the Lean language server so you get instant feedback as you edit. This guide covers interactive theorem proving workflows in Lean 4—tactics, goals, hypotheses, and the Infoview—along with language-aware editor features.
+ReasLab bundles the Lean language server so you get instant feedback as you edit. This guide covers interactive theorem proving workflows in Lean 4—tactics, goals, hypotheses, and the Infoview—along with language-aware editor features.
 
 ## Syntax highlighting and editor preferences
 
@@ -46,7 +46,7 @@ Reaslab bundles the Lean language server so you get instant feedback as you edit
 
 ## Lean toolchain management
 
-Choose the Lean version that matches your project before you start editing. Reaslab keeps the active toolchain visible so you always know which compiler features are available.
+Choose the Lean version that matches your project before you start editing. ReasLab keeps the active toolchain visible so you always know which compiler features are available.
 
 ### Pick a version when creating projects
 
@@ -54,7 +54,7 @@ Choose the Lean version that matches your project before you start editing. Reas
 
 - In the **New Project** flow, select the Lean toolchain version from the dropdown.
 - The IDE provisions the correct toolchain and associated libraries automatically.
-- You can import repositories that already include a Lean toolchain file; Reaslab respects that configuration.
+- You can import repositories that already include a Lean toolchain file; ReasLab respects that configuration.
 
 ### Confirm the active toolchain
 

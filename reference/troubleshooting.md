@@ -4,7 +4,7 @@ title: Troubleshooting
 
 # Troubleshooting
 
-Run into a hiccup? These tips cover the most common issues when working in Reaslab.
+Run into a hiccup? These tips cover the most common issues when working in ReasLab.
 
 ## Infoview looks stale
 
@@ -18,7 +18,7 @@ Run into a hiccup? These tips cover the most common issues when working in Reasl
 
 ## Connection issues
 
-- Watch the status indicator in the top bar; Reaslab attempts to reconnect automatically.
+- Watch the status indicator in the top bar; ReasLab attempts to reconnect automatically.
 - If the connection remains offline, reload the page to start a fresh session.
 
 ## Read-only definitions

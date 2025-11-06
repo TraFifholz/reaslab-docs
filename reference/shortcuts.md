@@ -4,7 +4,7 @@ title: Keyboard Shortcuts
 
 # Keyboard shortcuts
 
-The following keyboard shortcuts help you navigate and work efficiently in Reaslab. All shortcuts adapt to macOS (`Cmd`) and Windows/Linux (`Ctrl`) modifiers.
+The following keyboard shortcuts help you navigate and work efficiently in ReasLab. All shortcuts adapt to macOS (`Cmd`) and Windows/Linux (`Ctrl`) modifiers.
 
 ## Global navigation
 

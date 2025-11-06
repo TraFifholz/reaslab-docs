@@ -3,9 +3,8 @@
 layout: home
 
 hero:
-  name: "Reaslab Docs"
-  text: "Professional Lean 4 theorem proving environment."
-  tagline: "Interactive theorem prover for formal mathematics and verification — real‑time collaboration, tactic‑driven workflows, and type‑theoretic foundations."
+  name: "ReasLab Docs"
+  tagline: "Web-based Lean 4 IDE"
   actions:
     - theme: brand
       text: Start a Project
@@ -14,13 +13,22 @@ hero:
       text: User Guide
       link: /guides/lean-tooling
 
+    - theme: brand
+      text: Open ReasLab IDE
+      link: https://prove.reaslab.io/
+      target: _blank
+      rel: noopener noreferrer
+
 features:
-  - title: Interactive Theorem Prover
-    details: Proof assistant with real‑time goal display, tactic execution, and hypothesis management for complex mathematical proofs.
-  - title: Formal Verification Platform
-    details: Built for formal methods, algorithm and software verification, and mathematical research with dependent types and rich type theory support.
-  - title: Collaborative IDE
-    details: Pair on proofs, follow peers, and share projects for teaching mathematics and academic writing.
-  - title: Reproducible Workflows
-    details: Autosaved history, consistent toolchains, and CI‑friendly project layouts for reliable verification results.
+  - title: Zero-Install in the Browser
+    details: Start Lean 4 development instantly with no setup required. The IDE runs fully in your browser with a file tree, editor tabs, and responsive Infoview.
+
+  - title: Multi-Version Toolchain Switching
+    details: Work with different Lean 4 versions across projects without manual configuration or installation, solving one of the biggest pain points in the Lean ecosystem.
+
+  - title: Real-Time Collaboration
+    details: Collaborate with your team like on Overleaf. See others' edits live, follow their cursors, and build proofs together seamlessly.
+
+  - title: Unified Document Rendering
+    details: Render LaTeX, Markdown, and Typst directly in the IDE, combining traditional mathematical writing and formal verification in a single workflow.
 ---

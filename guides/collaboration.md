@@ -4,7 +4,7 @@ title: Collaboration
 
 # Collaboration
 
-Lean projects rarely happen in isolation. Reaslab supports synchronous editing and review flows so teams can move quickly while maintaining rigor.
+Lean projects rarely happen in isolation. ReasLab supports synchronous editing and review flows so teams can move quickly while maintaining rigor.
 
 ## Invite teammates
 

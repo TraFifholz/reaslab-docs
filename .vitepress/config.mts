@@ -2,9 +2,9 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Reaslab Documentation",
+  title: "ReasLab Documentation",
   description:
-    "Learn how to onboard, collaborate, and extend the Reaslab Lean IDE.",
+    "Learn how to onboard, collaborate, and extend the ReasLab Lean IDE.",
   head: [
     [
       "meta",
@@ -25,6 +25,7 @@ export default defineConfig({
   ],
   themeConfig: {
     nav: [
+      { text: "ReasLab IDE", link: "https://prove.reaslab.io/"},
       { text: "Playground", link: "https://prove.reaslab.io/playground"},
       { text: "Quick Start", link: "/getting-started/overview" },
       { text: "User Guide", link: "/guides/lean-tooling" },
@@ -67,8 +68,8 @@ export default defineConfig({
     },
     socialLinks: [{ icon: "github", link: "https://github.com/reaslab" }],
     footer: {
-      message: "Questions? Reach out to the Reaslab team.",
-      copyright: `Copyright © ${new Date().getFullYear()} Reaslab`,
+      // message: "Questions? Reach out to the ReasLab team.",
+      // copyright: `Copyright © ${new Date().getFullYear()} ReasLab`,
     },
   },
 });

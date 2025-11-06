@@ -4,7 +4,7 @@ title: Search
 
 # Search
 
-Locate proofs, tactics, and references quickly using the search tools built into Reaslab.
+Locate proofs, tactics, and references quickly using the search tools built into ReasLab.
 
 ## In-file search
 

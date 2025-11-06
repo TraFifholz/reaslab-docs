@@ -4,7 +4,7 @@ title: Markdown Preview
 
 # Markdown Preview
 
-Reaslab supports Markdown alongside Lean so you can document projects and publish explanations without leaving the IDE.
+ReasLab supports Markdown alongside Lean so you can document projects and publish explanations without leaving the IDE.
 
 ## Live preview
 
