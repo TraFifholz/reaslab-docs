@@ -8,10 +8,10 @@ hero:
   actions:
     - theme: brand
       text: Start a Project
-      link: /getting-started/projects
+      link: /guides/overview
     - theme: alt
       text: User Guide
-      link: /guides/lean-tooling
+      link: /guides/overview
 
     - theme: brand
       text: Open ReasLab IDE

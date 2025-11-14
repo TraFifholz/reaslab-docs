@@ -8,7 +8,7 @@ ReasLab is a browser‑based interactive theorem proving platform built on Lean 
 
 ## What is theorem proving?
 
-In an interactive theorem prover, you construct proofs step‑by‑step using tactics while monitoring goals and hypotheses in real time. Lean’s type theory and dependent types let you encode precise specifications and develop formal mathematics and verified programs.
+In an interactive theorem prover, you construct proofs step‑by‑step using tactics while monitoring goals and hypotheses in real time. Lean's type theory and dependent types let you encode precise specifications and develop formal mathematics and verified programs.
 
 ## Before you begin
 
@@ -47,7 +47,7 @@ ReasLab centers Lean editing around a few core panes that stay in sync while you
 - Lean files display the Infoview with goals, hypotheses, and diagnostics.
 - Markdown files render a live preview with synced scrolling.
 
-Press `Cmd/Ctrl + K` to open the command palette for quick actions. Continue to [Projects & Imports](/getting-started/projects) to create or bring in your own repositories.
+Press `Cmd/Ctrl + K` to open the command palette for quick actions.
 
 ## Use cases
 

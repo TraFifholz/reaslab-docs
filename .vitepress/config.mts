@@ -25,23 +25,20 @@ export default defineConfig({
   ],
   themeConfig: {
     nav: [
-      { text: "ReasLab IDE", link: "https://prove.reaslab.io/"},
-      { text: "Playground", link: "https://prove.reaslab.io/playground"},
-      { text: "Quick Start", link: "/getting-started/overview" },
-      { text: "User Guide", link: "/guides/lean-tooling" },
+      { text: "ReasLab IDE", link: "https://prove.reaslab.io/" },
+      { text: "Playground", link: "https://prove.reaslab.io/playground" },
+      { text: "User Guide", link: "/guides/overview" },
       { text: "Reference", link: "/reference/shortcuts" },
     ],
     sidebar: {
-      "/getting-started/": [
+      "/guides/": [
         {
           text: "Quick Start",
           items: [
-            { text: "Overview", link: "/getting-started/overview" },
-            { text: "Projects & Imports", link: "/getting-started/projects" },
+            { text: "Overview", link: "/guides/overview" },
+            { text: "Projects & Imports", link: "/guides/projects" },
           ],
         },
-      ],
-      "/guides/": [
         {
           text: "User Guide",
           items: [
