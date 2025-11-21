@@ -5,6 +5,9 @@ export default defineConfig({
   title: "ReasLab Documentation",
   description:
     "Learn how to onboard, collaborate, and extend the ReasLab Lean IDE.",
+  rewrites: {
+    "guides/overview.md": "index.md",
+  },
   head: [
     [
       "meta",
@@ -25,12 +28,30 @@ export default defineConfig({
   ],
   themeConfig: {
     nav: [
-      { text: "ReasLab IDE", link: "https://prove.reaslab.io/" },
-      { text: "Playground", link: "https://prove.reaslab.io/playground" },
       { text: "User Guide", link: "/guides/overview" },
       { text: "Reference", link: "/reference/shortcuts" },
     ],
     sidebar: {
+      "/": [
+        {
+          text: "Quick Start",
+          items: [
+            { text: "Overview", link: "/" },
+            { text: "Projects & Imports", link: "/guides/projects" },
+          ],
+        },
+        {
+          text: "User Guide",
+          items: [
+            { text: "Lean Development", link: "/guides/lean-tooling" },
+            { text: "Collaboration", link: "/guides/collaboration" },
+            { text: "Files & History", link: "/guides/files-and-history" },
+            { text: "Search Features", link: "/guides/search" },
+            { text: "Markdown Preview", link: "/guides/markdown" },
+            { text: "Git Integration", link: "/guides/git-integration" },
+          ],
+        },
+      ],
       "/guides/": [
         {
           text: "Quick Start",
