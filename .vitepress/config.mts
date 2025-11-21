@@ -5,9 +5,6 @@ export default defineConfig({
   title: "ReasLab Documentation",
   description:
     "Learn how to onboard, collaborate, and extend the ReasLab Lean IDE.",
-  rewrites: {
-    "guides/overview.md": "index.md",
-  },
   head: [
     [
       "meta",
