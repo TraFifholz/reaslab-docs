@@ -29,3 +29,4 @@ Thumbs.db
 
 # macOS resource forks
 ._*
+.DS_Store
