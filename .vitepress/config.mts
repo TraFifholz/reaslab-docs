@@ -27,6 +27,7 @@ export default defineConfig({
     nav: [
       { text: "User Guide", link: "/guides/overview" },
       { text: "Reference", link: "/reference/shortcuts" },
+      { text: "Demo", link: "/demo/reaslab-introduction" },
     ],
     sidebar: {
       "/": [
@@ -81,6 +82,18 @@ export default defineConfig({
             { text: "Editor Settings", link: "/reference/settings" },
             { text: "Glossary", link: "/reference/glossary" },
             { text: "Troubleshooting", link: "/reference/troubleshooting" },
+          ],
+        },
+      ],
+      "/demo/": [
+        {
+          text: "Demo",
+          items: [
+            { text: "Reaslab Introduction", link: "/demo/reaslab-introduction" },
+            { text: "Optimization Modeling and Solver Integration", link: "/demo/optimization-modeling" },
+            { text: "Mathematical Theorem Exploration", link: "/demo/mathematical-theorem" },
+            { text: "Lean Formalization and Machine-Checked Proofs", link: "/demo/lean-formalization" },
+            { text: "Web-Based Lean IDE and Project Environment", link: "/demo/lean-ide" },
           ],
         },
       ],
