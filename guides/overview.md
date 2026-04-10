@@ -31,16 +31,12 @@ ReasLab centers Lean editing around a few core panes that stay in sync while you
 
 ### Top bar and tabs
 
-![Top Bar and Tabs](/images/top-bar-tabs.png)
-
 - Use the **Project Menu** for global actions such as project settings, member management, and export options.
 - Track open editor tabs from the top bar — click any tab to switch files, drag to reorder.
 - See **online peers** for the current file and for the overall project beside the tab strip — hover to see each peer's cursor position.
 - Access **project history** to browse and restore previous snapshots of any file.
 
 ### Left sidebar
-
-![Left Sidebar](/images/left-sidebar.png)
 
 The left sidebar hosts three primary panels, toggleable via icons at the top:
 
@@ -49,8 +45,6 @@ The left sidebar hosts three primary panels, toggleable via icons at the top:
 - **Semantic** — AI-powered search that understands mathematical meaning. More details are covered in the [Lean guide](/guides/lean#semantic-search).
 
 ### Editor center
-
-![Editor Toolbar](/images/editor-toolbar.png)
 
 - The **toolbar** above the editor provides undo/redo, comment toggling, in-file search, the **command palette**, and the **symbol palette**.
 - The **command palette** (`Cmd/Ctrl + K`) gives quick access to hundreds of actions — open it and type to filter.

@@ -8,8 +8,6 @@ ReasLab bundles the Lean language server so you get instant feedback as you edit
 
 ## Syntax highlighting and editor preferences
 
-![Syntax Highlighting](/images/lean-syntax.png)
-
 - Lean files render with grammar-aware highlighting, distinguishing tactics, terms, types, and imports at a glance.
 - Adjust theme, font size, line numbers, word wrap, and cursor style from the editor settings drawer.
 - **Bracket matching** and **auto-close** pairs (`()`, `{}`, `[]`, `«»`) make it easy to navigate deeply nested proof terms.
