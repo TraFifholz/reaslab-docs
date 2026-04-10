@@ -30,7 +30,7 @@ title: 论文生成智能体
 为了能够最大化发挥智能体的能力，推荐采用如下标准流程：
 1. **指令输入**：用自然语言给定初始的科研或论文需求 prompt。
 2. **产生计划**：Copilot 会先给出一份初步的科研步骤路线计划。
-3. **用户反馈**：您可以提出细节修改，或是输入“Continue”允许智能体照做。
+3. **用户反馈**：您可以提出细节修改，或是输入"Continue"允许智能体照做。
 ![Copilot 交互流程](../../reference/images/paper_image6.png)
 4. **执行迭代**：Copilot 按照方案执行子任务，每个阶段均会给出内容及下一步摘要。
 5. **手动纠偏**：如果在部分过程中发现生成的环节或子系统效果未达预期，用户可以随时利用特定的 AT 语法（如 `@experiment`）单独切入并深度优化某一领域。
@@ -40,4 +40,17 @@ title: 论文生成智能体
 *(项目链接占位符)*
 
 ## 范例视频
-*(预留视频占位符)*
+
+**English Version**
+
+<video controls width="100%">
+  <source src="/vedio/paper-generation-en.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+**中文版**
+
+<video controls width="100%">
+  <source src="/vedio/paper-generation-cn.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>

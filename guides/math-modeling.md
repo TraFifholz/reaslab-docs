@@ -33,8 +33,12 @@ The Math Modeling Agent provides specific functionalities to simplify your workf
 6. Interact with the agent as it iterates over data analysis, modeling building, and finally compiles the comprehensive report.
 
 ## Sample Project
-You can view a complete sample project here: 
+You can view a complete sample project here:
 [Math Modeling Sample Project](https://model.reaslab.io/share/BjoAQKk6SLiyx25NC4_TgQR9be542)
 
 ## Example Video
-*(Video placeholder)*
+
+<video controls width="100%">
+  <source src="/vedio/math-modeling-en.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

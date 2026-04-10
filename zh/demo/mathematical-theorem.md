@@ -1,26 +1,22 @@
 ---
-title: Mathematical Theorem Exploration
+title: 数学定理探索
 ---
 
-# Mathematical Theorem Exploration
+# 数学定理探索
 
-Explore mathematical theorems from informal ideas to formal proofs, with AI-assisted reasoning, real-time LaTeX editing, and iterative refinement capabilities.
+从非形式化想法到形式化证明，探索数学定理的全流程，结合 AI 辅助推理、实时 LaTeX 编辑和迭代优化能力。
 
-## Key Features
+## 核心功能
 
-- **Informal Starting Point**: Start from informal objects, goals, and preliminary mathematical ideas.
+- **非形式化起点**：从非形式化的对象、目标和初步数学思想开始。
+- **假设澄清**：让 ReasLab 清晰重述假设条件，揭示隐含前提。
+- **AI 引导推理**：在 AI 推理反馈的引导下提出猜想并检验可行性。
+- **实时 LaTeX 集成**：将结果直接写入 LaTeX 源文件，实时预览 PDF 效果。
+- **迭代优化**：通过追加建议或强化证明严格性来迭代优化论证。
 
-- **Assumption Clarification**: Ask Reaslab to restate assumptions clearly and surface implicit conditions.
-
-- **AI-Guided Reasoning**: Request conjectures and feasibility checks guided by AI reasoning feedback.
-
-- **Real-Time LaTeX Integration**: Write results directly into LaTeX source files with real-time PDF preview.
-
-- **Iterative Refinement**: Refine arguments iteratively by appending suggestions or enforcing stricter proofs.
-
-## Demo Video
+## 演示视频
 
 <video controls width="100%">
   <source src="/vedio/mathematical-theorem.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>

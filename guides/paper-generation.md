@@ -8,7 +8,7 @@ The Paper Generation Agent (Paper Copilot) makes it extremely easy to orchestrat
 
 ## Accessing the Agent
 
-To use the Paper Copilot, start by creating a normal project or using a Paper Generation template. 
+To use the Paper Copilot, start by creating a normal project or using a Paper Generation template.
 ![Create Paper Project](../reference/images/paper_image1.png)
 Once in the workspace, open the chat panel, ensure you have correctly configured your LLM Provider under Settings, and select the **Paper Copilot** agent.
 ![Select Paper Copilot Agent](../reference/images/paper_image2.png)
@@ -40,4 +40,8 @@ The default highly recommended research process is as follows:
 *(Project link placeholder)*
 
 ## Example Video
-*(Video placeholder)*
+
+<video controls width="100%">
+  <source src="/vedio/paper-generation-en.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

@@ -1,26 +1,22 @@
 ---
-title: Web-Based Lean IDE and Project Environment
+title: 浏览器端 Lean IDE 与项目环境
 ---
 
-# Web-Based Lean IDE and Project Environment
+# 浏览器端 Lean IDE 与项目环境
 
-A fully-featured web-based development environment for Lean 4, providing interactive theorem proving, project management, and real-time collaboration without local installation.
+一个功能完备的基于浏览器的 Lean 4 开发环境，提供交互式定理证明、项目管理、实时协作，且无需本地安装。
 
-## Key Features
+## 核心功能
 
-- **Zero-Installation Development**: Write and test Lean 4 code directly with no local installation.
+- **零安装开发**：无需本地安装，直接编写和测试 Lean 4 代码。
+- **交互式 Infoview**：通过 Infoview 交互式查看目标、假设和错误信息。
+- **高级导航**：使用「转至定义」和语义搜索导航代码定义与类型。
+- **在线项目管理**：在线管理项目，支持从 GitHub 导入并选择版本。
+- **实时协作**：支持多文件编辑、标签页和结构化文件树的实时协作。
 
-- **Interactive InfoView**: Inspect goals, hypotheses, and errors interactively through the InfoView.
-
-- **Advanced Navigation**: Navigate definitions and types using Go to Definition and semantic search.
-
-- **Online Project Management**: Manage projects online, including GitHub imports and version selection.
-
-- **Real-Time Collaboration**: Collaborate in real time with multi-file editing, tabs, and a structured file tree.
-
-## Demo Video
+## 演示视频
 
 <video controls width="100%">
   <source src="/vedio/lean-ide.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  您的浏览器不支持视频标签。
 </video>

@@ -26,7 +26,7 @@ Lean 无需独立的开关界面。要进入正式环境：
 2. 结合 @ Add Context，或者右键想要证明的文件并选择 **Add File to Chat**。
 ![添加文件到对话](../../reference/images/lean_image6.png)
 3. 按照如下方法输入您的自然科学转换与验证需求：
-   > "我已经添加了一个 Markdown 文件上下文，请提炼其中的‘定理2.1’并以此作为目标条件，在目前工程里帮我填补所有的 sorry 以通过验证流程。"
+   > "我已经添加了一个 Markdown 文件上下文，请提炼其中的'定理2.1'并以此作为目标条件，在目前工程里帮我填补所有的 sorry 以通过验证流程。"
 4. 在侧边栏 Infoview 的验证提示辅助下，确认并采用大模型产出的逻辑代码与引理分支。
 ![AI 辅助补全代码](../../reference/images/lean_image7.png)
 
@@ -34,4 +34,17 @@ Lean 无需独立的开关界面。要进入正式环境：
 *(项目链接占位符)*
 
 ## 范例视频
-*(预留视频占位符)*
+
+**English Version**
+
+<video controls width="100%">
+  <source src="/vedio/lean-formalization-en.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+**中文版**
+
+<video controls width="100%">
+  <source src="/vedio/lean-formalization-cn.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>

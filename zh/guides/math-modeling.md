@@ -23,7 +23,7 @@ title: 数学建模智能体
 
 ## 范例流程
 
-1. 在模板页面选择“数学建模大赛类别”，筛选出您的目标题目并查看详情。
+1. 在模板页面选择"数学建模大赛类别"，筛选出您的目标题目并查看详情。
 2. 点击 **Use Template** 使用该题目模板，构建属于自己的项目。
 
 ![使用模板创建项目](../../reference/images/math_image2.png)
@@ -31,7 +31,7 @@ title: 数学建模智能体
 3. 进入项目后，将目标题目文件（例如 `Problem.md`）和相关数据文件通过右键点击选择 **Add File to Chat**。
 4. 在右下角将智能体切换至 **Math Modeling Agent**。
 5. 在输入框发送指令与智能体交互：
-   > “解决 Problem.md 中的建模问题，数据文件位于附件文件夹下，生成最终完整的建模报告 PDF。”
+   > "解决 Problem.md 中的建模问题，数据文件位于附件文件夹下，生成最终完整的建模报告 PDF。"
 
 ![对话交互界面](../../reference/images/math_image3.png)
 
@@ -42,4 +42,17 @@ title: 数学建模智能体
 [数学建模示例项目](https://model.reaslab.io/share/BjoAQKk6SLiyx25NC4_TgQR9be542)
 
 ## 范例视频
-*（预留视频占位符）*
+
+**English Version**
+
+<video controls width="100%">
+  <source src="/vedio/math-modeling-en.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>
+
+**中文版**
+
+<video controls width="100%">
+  <source src="/vedio/math-modeling-cn.mp4" type="video/mp4">
+  您的浏览器不支持视频标签。
+</video>

@@ -27,11 +27,15 @@ The AI interaction leverages the core **Reaslingo (Reaslab-agent)** functionalit
 ![Add File to Chat](../reference/images/lean_image6.png)
 3. Detail your prompt towards the AI:
    > "Please extract Theorem 2.1 from the attached Markdown file and convert it into a Lean 4 theorem declaration. Then complete the enclosed sorry blocks without altering the remaining structure."
-4. Review the returned code against the right-sidebar `Infoview` which dynamically ensures tactic validity. 
+4. Review the returned code against the right-sidebar `Infoview` which dynamically ensures tactic validity.
 ![AI Suggests Code](../reference/images/lean_image7.png)5. Paste or allow the AI to apply the generated logic safely.
 
 ## Sample Project
 *(Project link placeholder)*
 
 ## Example Video
-*(Video placeholder)*
+
+<video controls width="100%">
+  <source src="/vedio/lean-formalization-en.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>

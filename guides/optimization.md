@@ -39,4 +39,8 @@ You can navigate through nine major categories and 173 sub-categories of optimiz
 *(Project link placeholder)*
 
 ## Example Video
-*(Video placeholder)*
+
+<video controls width="100%">
+  <source src="/vedio/optimization-en.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
