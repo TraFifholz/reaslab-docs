@@ -28,3 +28,11 @@ Lean projects rarely happen in isolation. ReasLab supports synchronous editing a
 
 - Cursors and selections display collaborator presence inside the editor.
 - Check the project History to review past snapshots, restore earlier work, or provide asynchronous feedback.
+
+## Collaboration Indicators
+
+![Online Peers Panel](/images/online-peers-panel.png)
+
+- See who is currently viewing the same file — each peer's avatar and cursor position is visible in real time.
+- Click the peers panel to jump to a collaborator's cursor location.
+- When multiple people edit the same line, color-coded cursors show each user's position without conflict.

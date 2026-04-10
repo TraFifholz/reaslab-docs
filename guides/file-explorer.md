@@ -8,6 +8,8 @@ The File Explorer and Search functionalities provide a comprehensive interface f
 
 ## File Explorer
 
+![File Explorer](/images/file-explorer.png)
+
 The system provides a clear project tree layout on the left panel. From here you can:
 
 - **Create Files/Directories**: Click on the plus icon on the header to create new files or folders at any level of the directory hierarchy.
@@ -46,11 +48,3 @@ You can search through all active files via the **Search** toggle available in t
 | `Shift + Enter` | Find previous match |
 | `Cmd/Ctrl + Enter` | Replace current match |
 | `Cmd/Ctrl + Shift + Enter` | Replace all matches |
-
-## Collaboration Indicators
-
-![Online Peers Panel](/images/online-peers-panel.png)
-
-- See who is currently viewing the same file — each peer's avatar and cursor position is visible in real time.
-- Click the peers panel to jump to a collaborator's cursor location.
-- When multiple people edit the same line, color-coded cursors show each user's position without conflict.

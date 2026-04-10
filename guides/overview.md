@@ -4,75 +4,69 @@ title: Overview
 
 # Overview
 
-ReasLab is a browser‑based interactive theorem proving platform built on Lean 4. It supports formal verification and formal methods for mathematical research and software/algorithm verification, with a proof assistant workflow grounded in dependent type theory. This overview introduces the core areas of the interface and points you toward the guides that dive deeper into each feature set.
-
-## What is theorem proving?
-
-In an interactive theorem prover, you construct proofs step‑by‑step using tactics while monitoring goals and hypotheses in real time. Lean's type theory and dependent types let you encode precise specifications and develop formal mathematics and verified programs.
+ReasLab is a one-stop intelligent mathematical reasoning engine for education, research, and complex decision-making scenarios. It breaks through the traditional manual approach in mathematical and applied research by building infrastructure that moves from expert intuition-driven to computable, verifiable, and AI-augmented workflows. Addressing the long-standing fragmentation between mathematical modeling, algorithm design, and theorem proving — all heavily dependent on manual experience — ReasLab uses large language models as its foundation, employs a multi-agent architecture, and integrates mathematical model libraries, algorithm libraries, and theorem knowledge bases. It unifies model construction, algorithm design, computational solving, natural language and formal proof, and Markdown/LaTeX report generation into a single environment, enabling mathematical objects to flow seamlessly across different representational levels and task stages. Backed by cloud computing, ReasLab requires no local installation and is available online immediately. It has already served nearly a thousand users in formal verification, optimization modeling, mathematical contest preparation, and scientific writing. It provides formal teaching and research workspaces for dozens of universities including Peking University and the National University of Singapore, and is actively supporting real business needs from companies like GoerTech. Its M2F agent has formalized Terence Tao's Analysis II, Rockafellar's Convex Analysis, and other books, generating over 300,000 lines of Lean code — providing sustainable, evolving infrastructure for mathematical research and complex decision-making.
 
 ## Before you begin
 
-- Create or sign in to your ReasLab account.
-- Decide whether you are creating a new project, importing from Git, or joining via a share link.
-- Confirm browser support: the latest Chrome, Edge, or Safari versions provide the best experience.
+- **Create an account**: Visit [reaslab.com](https://reaslab.com) to sign up or sign in to an existing account.
+- **Create or import a project**: Start from scratch, import an existing repository from GitHub, or join a project via a share link.
+- **Browser requirements**: For the best experience, use the latest version of Chrome, Edge, or Safari.
 
 ## Interface at a glance
 
 ![IDE Overview](/images/ide-illustration.png)
 
-- **Top bar**: Menu button, open tabs, online peers for the current file and across the project, and access to project History.
-- **Left sidebar**: toggle between the file tree, project-wide search, and semantic search views.
-- **Editor**: Edit Lean and Markdown files with undo/redo, inline find, command palette, and symbol palette.
-- **Right sidebar**: Infoview for Lean files and a live preview for Markdown content.
+- **Top bar**: Contains the menu, open tabs (files), real-time collaborator count for the current file and the entire project, and access to the project history.
+- **Left sidebar**: Switch between the directory tree, full-text search, and semantic search.
+- **Editor center**: Write Lean code and Markdown documents with standard developer experience including undo/redo, in-file search, command palette, and symbol palette.
+- **Right sidebar**: The **Infoview** for Lean code — showing live goals/hypotheses — or a real-time rendered preview for Markdown.
 
 ## Workspace layout
 
-ReasLab centers Lean editing around a few core panes that stay in sync while you type:
+ReasLab centers Lean editing around several core panes that stay in sync as you type:
 
 ### Top bar and tabs
 
-- Use the **Project Menu** for global actions such as project settings, member management, and export options.
-- Track open editor tabs from the top bar — click any tab to switch files, drag to reorder.
-- See **online peers** for the current file and for the overall project beside the tab strip — hover to see each peer's cursor position.
-- Access **project history** to browse and restore previous snapshots of any file.
+- **Project Menu**: Provides global operations such as project settings, member management, and export options.
+- **Tabs**: Click a tab to switch files; drag to reorder.
+- **Online Peers**: Shows the number of collaborators currently online for the current file and the entire project. Hover to see each collaborator's cursor position.
+- **Project History**: Browse and restore historical snapshots of any file.
 
 ### Left sidebar
 
-The left sidebar hosts three primary panels, toggleable via icons at the top:
+The left sidebar has three toggle icons at the top, each opening a different panel:
 
 - **Files** — A hierarchical directory tree. Create, rename, delete files and folders; drag files from your desktop to upload directly.
-- **Search** — Run project-wide plain-text or regex search and replace across all open files.
-- **Semantic** — AI-powered search that understands mathematical meaning. More details are covered in the [Lean guide](/guides/lean#semantic-search).
+- **Search** — Run full-text or regex search and replace across all open files.
+- **Semantic** — AI-powered semantic search that understands mathematical meaning rather than matching keywords. See the [Lean guide](/guides/lean#semantic-search) for details.
 
 ### Editor center
 
-- The **toolbar** above the editor provides undo/redo, comment toggling, in-file search, the **command palette**, and the **symbol palette**.
-- The **command palette** (`Cmd/Ctrl + K`) gives quick access to hundreds of actions — open it and type to filter.
-- The **status line** at the bottom shows the active mode (Lean or Markdown), connection status, cursor position, and the active Lean toolchain version.
+- **Toolbar** above the editor provides undo/redo, comment toggling, in-file search, the **command palette**, and the **symbol palette**.
+- **Command Palette**: Press `Cmd/Ctrl + K` to invoke it. Type to filter and quickly execute hundreds of actions.
+- **Status bar** at the bottom shows the current mode (Lean or Markdown), connection status, cursor position, and the active Lean toolchain version.
 
 ### Right sidebar
 
-- **Lean files** open the **Infoview** automatically, showing goals, hypotheses, and live diagnostics as you write tactics.
-- **Markdown files** render a **live preview** with synchronized scrolling — what you see in the editor is exactly what appears in the preview.
+- **Lean files** automatically open the **Infoview**, which shows proof goals (Goals), available assumptions (Hypotheses), and inline diagnostic information in real time.
+- **Markdown files** display a **live preview** with synchronized scrolling — what you see in the editor is exactly what appears in the preview.
 
 ![Lean Infoview](/images/lean-infoview.png)
 
-Press `Cmd/Ctrl + K` to open the command palette for quick actions.
+## Core use cases
 
-## Use cases
+- **Mathematical research**: Develop formally verified mathematics and publish machine-checkable proofs that are verifiable by anyone.
+- **Education**: Teach theorem proving, type theory, and tactic-based reasoning in collaborative labs where instructors and students share a live workspace.
+- **Verification**: Specify and verify algorithms or software components using formal methods, reducing bugs in safety-critical code.
 
-- **Mathematical research**: develop formal mathematics and publish machine‑checked proofs that are verifiable by anyone.
-- **Education**: teach theorem proving, type theory, and tactics with collaborative labs where instructors and students share a live workspace.
-- **Verification**: specify and verify algorithms or software components using formal methods, reducing bugs in safety‑critical code.
+## Feature quick reference
 
-## Key features at a glance
-
-| Feature | Where to learn more |
-|---------|---------------------|
+| Feature | Details |
+|---------|---------|
 | Lean 4 editing & Infoview | [Lean Tooling guide](/guides/lean) |
 | File management & search | [File Explorer guide](/guides/file-explorer) |
-| Real‑time collaboration | [Collaboration guide](/guides/collaboration) |
-| AI agent assistance | [Provider Config](/guides/provider-config) |
+| Real-time collaboration | [Collaboration guide](/guides/collaboration) |
+| AI agent configuration | [Provider Config guide](/guides/provider-config) |
 | LaTeX editing & PDF export | [LaTeX guide](/guides/latex) |
 | Markdown with live preview | [Markdown guide](/guides/markdown) |
 | Git version control | [Git Integration guide](/guides/git-integration) |
