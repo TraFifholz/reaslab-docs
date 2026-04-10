@@ -1,0 +1,32 @@
+# Node
+node_modules/
+.pnpm-store/
+
+# VitePress
+.vitepress/cache/
+.vitepress/dist/
+dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Env files (if any local overrides)
+.env.local
+.env.*.local
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# macOS resource forks
+._*
+.DS_Store
