@@ -43,10 +43,9 @@ ReasLab 提供了多种启动方式，无论您是想从零开始还是使用预
 
 ### 4. 通过 Lean (定理证明) 模板创建
 使用预配置的 Lean 4 环境启动形式化验证项目。
-![定理证明模板](../../reference/images/lean_image2.png)
-- 进入 **Theorem Proving** 分类。
-- 选择符合您证明需求的工程模板。
-- 点击 **Use Template** 开始。
+![定理证明模板](/images/lean_templates.png)
+- **①** 导航到 Lean 模板库，左方和上方各一个按钮。
+- **②** 选择模板，点击 **Use Template** 使用模板创建项目。
 
 ## 从 Git 导入
 

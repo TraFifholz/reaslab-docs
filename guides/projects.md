@@ -43,10 +43,9 @@ Quickly bootstrap optimization problems with mathematical models and solver conf
 
 ### 4. Using Theorem Proving (Lean) Templates
 Start formal verification projects with pre-configured Lean 4 environments.
-![Theorem Proving Templates](../reference/images/lean_image2.png)
-- Go to the **Theorem Proving** category.
-- Select a template that matches your proof assistant needs.
-- Click **Use Template** to begin.
+![Lean Templates](/images/lean_templates.png)
+- **①** Navigate to the Lean template library — one button on the left and one at the top.
+- **②** Select a template and click **Use Template** to create a project.
 
 ## Import from Git
 
