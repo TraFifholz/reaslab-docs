@@ -36,10 +36,10 @@ Ideal for competition participants, these templates come with problem statements
 
 ### 3. Using Optimization Modeling Templates
 Quickly bootstrap optimization problems with mathematical models and solver configurations.
-![Optimization Modeling Templates](../reference/images/opt_image1.png)
-- Navigate to the **Optimization Modeling** section.
-- Browse through the categorized tree of optimization problems.
-- Click **Use Template** on your chosen model.
+![Optimization Modeling Templates](/images/optimization-templeate.png)
+- **①** Buttons to navigate to the **Optimization Modeling** template area — includes top and left navigation buttons.
+- **②** Filter templates by **categories** to quickly find suitable templates.
+- **③** Available templates are shown here — click to preview template details, then click **Use Template** to create a project from the template.
 
 ### 4. Using Theorem Proving (Lean) Templates
 Start formal verification projects with pre-configured Lean 4 environments.

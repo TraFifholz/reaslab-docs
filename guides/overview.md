@@ -10,11 +10,11 @@ ReasLab is a one-stop intelligent mathematical reasoning engine for education, r
 
 ## Before you begin
 
-![Login Page](/images/login_(overview).png)
-
 - **Create an account**: Visit [reaslab.com](https://reaslab.com) to sign up or sign in to an existing account.
 - **Create or import a project**: Start from scratch, import an existing repository from GitHub, or join a project via a share link.
 - **Browser requirements**: For the best experience, use the latest version of Chrome, Edge, or Safari.
+
+![Login Page](/images/login_(overview).png)
 
 ## Core use cases
 

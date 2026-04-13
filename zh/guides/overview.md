@@ -10,11 +10,11 @@ ReasLab 是面向教育、科研与复杂决策场景的一站式智能数学推
 
 ## 开始之前
 
-![登录页面](/images/login_(overview).png)
-
 - **注册账号**：访问 [reaslab.com](https://reaslab.com) 创建账户或登录已有账号。
 - **创建或导入项目**：可从零新建项目、从 GitHub 导入已有仓库，或通过分享链接加入他人项目。
 - **浏览器要求**：推荐使用最新版本的 Chrome、Edge 或 Safari，以获得完整功能体验。
+
+![登录页面](/images/login_(overview).png)
 
 ## 核心应用场景
 
