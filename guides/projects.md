@@ -12,37 +12,37 @@ After logging in, you land on the Projects page where you can view and manage al
 
 - **① Project Management tab**: Manage all your projects — filter, archive, or leave shared projects.
 - **② Create Project tab**: Start a new project from scratch or from a template.
-- **③ Filter**: Switch between **All Projects**, **Owned by You**, **Shared with You**, and **Archived** to keep your workspace organized.
+- **③ Filter**: In the Project Management tab, you can switch between **All Projects**, **Owned by You**, **Shared with You**, and **Archived**. Projects you own can be archived, and projects shared with you can be left.
 - **④ Send Feedback**: Encounter any issues? Click this button to submit feedback — it will be filed as a GitHub issue automatically.
 
 ## Create a new project
 
 There are multiple ways to start your journey in ReasLab, depending on whether you want a clean slate or a pre-configured environment.
 
-### 1. Creating a Blank Project
-For general-purpose scientific writing or when you want to build your own structure from scratch, use the **New Project** option.
+### 1. Creating a Blank Project (New Project)
+Suitable for general scientific writing or custom project structures. Usually, you start by clicking **New Project** in the Dashboard sidebar.
 ![Creating a Blank Project](/images/new_project.png)
 - **①** Click this to switch to the **New Project** tab.
 - **②** Enter your **Project Name** here.
 - **③** Configure your new project in this area — select the Lean toolchain version, template type, and other settings.
 - **④** When everything is ready, click this button to create the project.
 
-### 2. Using Math Modeling Templates
-Ideal for competition participants, these templates come with problem statements and report structures.
+### 2. Creating from a Math Modeling Template
+Designed for competition participants. These templates come with the problem background and report structure.
 ![Math Modeling Templates](../reference/images/math_image1.png)
-- Select the **Math Modeling Contests** category.
-- Choose a specific competition problem to view its details.
+- In the Templates area, choose the **Math Modeling Contests** category.
+- Select a specific competition problem to view its details.
 - Click **Use Template** to instantiate the project.
 
-### 3. Using Optimization Modeling Templates
-Quickly bootstrap optimization problems with mathematical models and solver configurations.
+### 3. Creating from an Optimization Modeling Template
+Quickly start optimization problems with mathematical models and solver configuration included. The system provides 9 major categories and 173 subcategories of optimization templates. You can use the tree view to locate a suitable template, then click **Use Template** to create your own project.
 ![Optimization Modeling Templates](/images/model-template.png)
 - **①** Buttons to navigate to the **Optimization Modeling** template area — includes top and left navigation buttons.
-- **②** Filter templates by **categories** to quickly find suitable templates.
-- **③** Available templates are shown here — click to preview template details, then click **Use Template** to create a project from the template.
+- **②** Filter suitable templates by **categories**.
+- **③** The available templates appear here. Open one to preview its content, then click **Use Template** to create the corresponding project.
 
-### 4. Using Theorem Proving (Lean) Templates
-Start formal verification projects with pre-configured Lean 4 environments.
+### 4. Creating from a Lean (Theorem Proving) Template
+Start a formal verification project with a preconfigured Lean 4 environment.
 ![Lean Templates](/images/lean_templates.png)
 - **①** Navigate to the Lean template library — one button on the left and one at the top.
 - **②** Select a template and click **Use Template** to create a project.
@@ -51,16 +51,16 @@ Start formal verification projects with pre-configured Lean 4 environments.
 
 ![Import Git](/images/import_from_git.png)
 
-Create new ReasLab projects from existing Git repositories:
+There are several ways to bring an existing repository into the formal workflow:
 
 - **①** Click the **Git** tab to switch to the Git import interface.
-- **②** Enter your repository details — paste any Git URL to import from other platforms, and configure project settings.
-- **③** Link your **GitHub account** to browse and import projects directly from your repositories. Imports the repository's default branch.
+- **②** Enter the repository information by pasting a Git URL and configuring the project to import it.
+- **③** Link your **GitHub account** to browse projects directly from your account without manually pasting the URL. The system imports the repository based on its default branch.
 
 For more advanced Git operations (branch management, commit history, conflict resolution), see the [Git Integration guide](/guides/git-integration).
 
 ## Join via Share Link
 
-- If you're joining someone else's project and have a share link, sign in to your account and open the link to create and enter the project with the appropriate permissions.
+- If you receive a high-permission share link from another member, open it in the browser after signing in. You can then join the project with the granted permissions, such as view, edit, or manage, and collaborate with others in the same workspace.
 
-For detailed collaboration features, see the [Collaboration guide](/guides/collaboration).
+For details, see the [Collaboration guide](/guides/collaboration.md).

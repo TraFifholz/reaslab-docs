@@ -7,14 +7,7 @@ title: 数学建模智能体
 数学建模智能体专为您在数学建模竞赛、数据分析以及生成专业 PDF 报告的过程中提供全方位支持。
 
 ## 进入方式
-
-您可以通过以下两种方式使用数学建模的专属模板与智能体：
-- **方式一**：在 Dashboard 的个人项目界面，点击 **Math Modeling Contest templates**。
-- **方式二**：在 Home 页面上方区域点击 **Templates**，选择 **Math Modeling Contests**。
-
-![进入数学建模模板](../../reference/images/math_image1.png)
-
-项目创建并进入工作区后，在底部对话框的 LLM 选项列表中，选择第一项 **Math Modeling Agent** 进入交互模式。
+[项目](/zh/guides/projects.md)创建并进入工作区后，在底部对话框的 LLM 选项列表中，选择第一项 **Math Modeling Agent** 进入交互模式。
 
 ## 基础功能
 - **自动化构建**：一键生成适用于数学建模的项目骨架。
@@ -25,16 +18,10 @@ title: 数学建模智能体
 
 1. 在模板页面选择"数学建模大赛类别"，筛选出您的目标题目并查看详情。
 2. 点击 **Use Template** 使用该题目模板，构建属于自己的项目。
-
-![使用模板创建项目](../../reference/images/math_image2.png)
-
 3. 进入项目后，将目标题目文件（例如 `Problem.md`）和相关数据文件通过右键点击选择 **Add File to Chat**。
 4. 在右下角将智能体切换至 **Math Modeling Agent**。
 5. 在输入框发送指令与智能体交互：
    > "解决 Problem.md 中的建模问题，数据文件位于附件文件夹下，生成最终完整的建模报告 PDF。"
-
-![对话交互界面](../../reference/images/math_image3.png)
-
 6. 智能体将引导完成建模并最终生成报告。
 
 ## 示例项目

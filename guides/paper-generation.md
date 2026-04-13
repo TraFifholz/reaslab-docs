@@ -11,7 +11,7 @@ Open the chat panel (make sure you have configured your LLM Provider in Settings
 
 ## Basic Features
 
-The Paper Copilot operates in a multi-agent orchestrated pattern. A **Main Agent** processes your requests and delegates tasks to six specialized sub-agents:
+The scientific writing assistant adopts a primary-plus-specialized multi-agent architecture. The main agent interprets your intent, plans the research tasks, and coordinates the following six dedicated sub-agents:
 - **@survey** / **@survey-auto**: Conducts literature reviews and writes the "Related Work" sections.
 - **@algorithm** / **@algorithm-auto**: Designs algorithms, provides pseudocode, and verifies the algorithm in Python.
 - **@prover** / **@prover-auto**: Establishes theoretical properties, formalizes hypotheses, and conducts proofs.
@@ -19,23 +19,24 @@ The Paper Copilot operates in a multi-agent orchestrated pattern. A **Main Agent
 - **@intro** / **@intro-auto**: Summarizes research progress and drafts the "Introduction" section.
 - **@paper**: Aggregates all research contents and drafts the final paper.
 
-Each sub-agent has specific capabilities: the survey agent conducts literature reviews and writes survey and related work chapters; the algorithm agent designs algorithms, provides pseudocode, and verifies algorithm feasibility using Python; the prover agent establishes theoretical properties, automatically provides hypotheses and conducts theorem proofs; the experiment agent designs and runs experiments, autonomously reviewing experimental results; the intro agent summarizes research progress and writes the paper's introduction; the paper agent synthesizes all research content and generates the final paper.
+The survey agent handles literature research and drafts the survey or related work sections. The algorithm agent designs algorithms, produces pseudocode, and validates feasibility in Python. The prover agent builds theoretical properties, proposes assumptions, and derives proofs. The experiment agent designs and runs experiments, then reviews the resulting outputs. The intro agent summarizes research progress and writes the introduction. The paper agent combines all of this work into the final paper.
 
-*(Note: Adding `-auto` suffix triggers the automatic mode for the agent without asking for interactive confirmations).*
+*(Note: the `-auto` suffix enables fully automatic execution. Without it, the workflow stays in the interactive confirmation mode by default.)*
 
 ## Example Workflow
 
-The default highly recommended research process is as follows:
-1. **Initial Prompt**: The user provides the initial prompt indicating what research paper is to be written.
-2. **Planning**: The main Copilot generates a preliminary research plan.
-3. **Review**: The user requests changes or inputs 'Continue' to approve the plan.
+To get the best results from the agent, the recommended workflow is:
+1. **Prompt Input**: Provide an initial natural-language prompt describing the research or paper-writing task.
+2. **Plan Generation**: The Copilot first returns a preliminary research plan.
+3. **User Feedback**: You can request detailed adjustments, or type `Continue` to let the agent proceed.
 ![Copilot Interaction Flow](../reference/images/paper_image6.png)
-4. **Execution Cycle**: The Copilot executes research tasks phase by phase. It provides task summaries and a next-step plan at the end of each sprint.
-5. **Modification**: If any specific chunk of output is out of expectations, you can explicitly mention specific sub-agents (e.g., `@experiment`) to perform deep-dive optimizations.
-6. **Finalizing**: The Agent iteratively coordinates these steps until a final high-quality Paper PDF is generated.
+4. **Iterative Execution**: The Copilot carries out the subtasks according to the plan, and after each stage it provides the generated content together with a summary of the next step.
+5. **Manual Correction**: If part of the generated pipeline or subsystem is not meeting expectations, you can explicitly invoke a specific `@` command such as `@experiment` to focus on and improve that area.
+6. **Final Output**: The Copilot gathers all content and generates the final PDF version of the paper.
 
 ## Sample Project
-*(Project link placeholder)*
+You can refer to the following example project to see the expected deliverable:
+[Scientific Paper Writing](https://model.reaslab.io/share/3k0kYCxwSH2RQIQ4blUmZgR580db8.MzY.YTQzZTdhZTAtM2E4YS00NDQyLWFiNjctNGZkMjQ4NGNmZjNi)
 
 ## Example Video
 

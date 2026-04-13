@@ -6,34 +6,19 @@ title: Optimization Modeling Agent
 
 The Optimization Modeling Agent provides a smooth template-driven experience for formalizing and solving complex mathematical optimization problems using various industry-standard solvers.
 
-## Accessing the Agent
-
-There are three ways to access the Optimization Modeling templates:
-1. **From Dashboard**: Click on the Dashboard, then select **Optimization Modeling** on the left.
-![Access via Dashboard](../reference/images/opt_image1.png)
-2. **From Get Started**: Click **Get Started**, then select **Optimization Modeling** on the left.
-![Access via Get Started](../reference/images/opt_image2.png)
-3. **From Home Page**: Under the **Templates** section at the top, select **Optimization Modeling**.
-![Access via Templates](../reference/images/opt_image3.png)
-
-You can navigate through nine major categories and 173 sub-categories of optimization problems. Once you find your target template, click **Use Template** to create your project.
-
 ## Basic Features
-- **Categorized Templates**: Browse problems easily with tree-view or flat-view layouts, complete with documentation, mathematical models, and basic Python code.
-- **Interactive Solver Configuration**: Easily configure solver licenses (e.g. Gurobi, COPT) from the interface. Built-in solvers like OR-Tools and CPLEX are available out-of-the-box without extra licensing.
-- **Dedicated Co-pilot**: The **Optimization Agent** assists dedicatedly with code refinement, mathematical formulation, and generating solution reports.
+- **Template Engine**: One click creates a project with problem description, mathematical model, and baseline Python solver code.
+- **Solver License Configuration**: Supports one-click binding for commercial solvers. OR-Tools and CPLEX are built in on the platform. If you need Gurobi or COPT, you can connect them directly by entering the license through the platform.
+- **Deep AI Integration**: Use the **Optimization Agent** to turn natural-language requests directly into code development and result analysis.
 
 ## Example Workflow
 
-1. Choose a sub-category optimization template and create the project.
-![Optimization Template Overview](../reference/images/opt_image4.png)
-2. On the left sidebar, click the third icon to open the **License Configuration** panel. If using advanced solvers like Gurobi or COPT, upload your license or provide the `LICENSEID`. Click the **Test** button to ensure the configuration works, then hit **Save**.
-![Solver License Configuration](../reference/images/opt_image5.png)
-3. Upload your problem description document (e.g., `problem.docx`) using the Add file feature.
-4. In the Chat interface on the right, switch to the **Optimization Agent**.
-5. Input your prompt:
-   > "Solve the optimization problem described in problem.docx and generate a detailed solution report in PDF."
-![Optimization Chat Interaction](../reference/images/opt_image6.png)
+1. Based on the optimization scenario you want to study, choose a suitable category template from the system library and create a project.
+2. Configure the solver license: click the third icon in the left sidebar to open the license configuration page. If you are using a commercial solver, upload the license file or enter the `LICENSEID`. After configuration, use **Test** to check connectivity, then click **Save**.
+3. Drag the real problem document, such as `problem.docx`, or the dataset into the project, or select **Add File to Chat**.
+4. In the chat interface, select **Optimization Agent** after choosing the model provider.
+5. Enter a prompt such as:
+   > "Based on the problem description in problem.docx, solve this optimization problem and generate a detailed solution report in PDF."
 
 ## Sample Project
 

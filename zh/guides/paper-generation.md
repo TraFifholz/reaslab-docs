@@ -33,7 +33,8 @@ title: 论文生成智能体
 6. **产出终稿**：Copilot 会汇聚所有内容生成论文的最终 PDF 版本。
 
 ## 示例项目
-*(项目链接占位符)*
+您可以参考以下示例项目以了解预期交付效果：
+[科学论文写作](https://model.reaslab.io/share/3k0kYCxwSH2RQIQ4blUmZgR580db8.MzY.YTQzZTdhZTAtM2E4YS00NDQyLWFiNjctNGZkMjQ4NGNmZjNi)
 
 ## 范例视频
 
