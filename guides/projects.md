@@ -21,10 +21,11 @@ There are multiple ways to start your journey in ReasLab, depending on whether y
 
 ### 1. Creating a Blank Project
 For general-purpose scientific writing or when you want to build your own structure from scratch, use the **New Project** option.
-![Creating a Blank Project](../reference/images/paper_image1.png)
-- Enter a unique **Project Name**.
-- If your project involves Lean, select the appropriate **Lean Toolchain version**.
-- Click **Create** to launch the workspace.
+![Creating a Blank Project](/images/new_project.png)
+- **①** Click this to switch to the **New Project** tab.
+- **②** Enter your **Project Name** here.
+- **③** Configure your new project in this area, template type, and other settings.
+- **④** When everything is ready, click this button to create the project.
 
 ### 2. Using Math Modeling Templates
 Ideal for competition participants, these templates come with problem statements and report structures.
