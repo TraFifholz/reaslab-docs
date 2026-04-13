@@ -7,11 +7,7 @@ title: 论文生成智能体
 通过论文生成智能体（Paper Copilot），您能在 ReasLab 平台中丝滑地进行端到端的科学研究与学术论文写作。
 
 ## 进入方式
-
-使用原本的新建项目选项或者选择 Paper Generation 项目模板即可进入工作区。
-![创建论文项目](../../reference/images/paper_image1.png)
-然后，打开聊天面板（并在此之前请确保配置了您的 LLM 供应商信息），在下拉列表中选择 **Paper Copilot** 即可开启科学写作之旅。
-![配置大模型过程](../../reference/images/paper_image2.png)
+打开聊天面板（并在此之前请确保配置了您的 LLM 供应商信息），在下拉列表中选择 **Paper Copilot** 即可开启科学写作之旅。
 
 ## 基础功能
 
@@ -40,15 +36,6 @@ title: 论文生成智能体
 *(项目链接占位符)*
 
 ## 范例视频
-
-**English Version**
-
-<video controls width="100%">
-  <source src="/vedio/paper-generation-en.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
-</video>
-
-**中文版**
 
 <video controls width="100%">
   <source src="/vedio/paper-generation-cn.mp4" type="video/mp4">

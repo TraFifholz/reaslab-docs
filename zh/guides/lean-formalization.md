@@ -35,15 +35,6 @@ Lean 无需独立的开关界面。要进入正式环境：
 
 ## 范例视频
 
-**English Version**
-
-<video controls width="100%">
-  <source src="/vedio/lean-formalization-en.mp4" type="video/mp4">
-  您的浏览器不支持视频标签。
-</video>
-
-**中文版**
-
 <video controls width="100%">
   <source src="/vedio/lean-formalization-cn.mp4" type="video/mp4">
   您的浏览器不支持视频标签。

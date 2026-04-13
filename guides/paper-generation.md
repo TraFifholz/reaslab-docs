@@ -7,11 +7,7 @@ title: Paper Generation Agent
 The Paper Generation Agent (Paper Copilot) makes it extremely easy to orchestrate and execute a full scientific research and writing workflow in the ReasLab platform.
 
 ## Accessing the Agent
-
-To use the Paper Copilot, start by creating a normal project or using a Paper Generation template.
-![Create Paper Project](../reference/images/paper_image1.png)
 Once in the workspace, open the chat panel, ensure you have correctly configured your LLM Provider under Settings, and select the **Paper Copilot** agent.
-![Select Paper Copilot Agent](../reference/images/paper_image2.png)
 
 ## Basic Features
 
