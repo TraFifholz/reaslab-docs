@@ -108,7 +108,6 @@ export default defineConfig({
         nav: [
           { text: "User Guide", link: "/guides/overview" },
           { text: "Reference", link: "/reference/shortcuts" },
-          { text: "Demo", link: "/demo/reaslab-introduction" },
         ],
         sidebar: {
           "/": getSidebarEn(),
@@ -124,7 +123,6 @@ export default defineConfig({
         nav: [
           { text: "用户指南", link: "/zh/guides/overview" },
           { text: "参考指南", link: "/zh/reference/shortcuts" },
-          { text: "演示", link: "/zh/demo/reaslab-introduction" },
         ],
         sidebar: {
           "/zh/": getSidebarZh(),
