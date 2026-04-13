@@ -8,7 +8,7 @@ The Workspace guide covers the overall interface layout — how the top bar, sid
 
 ## Interface at a glance
 
-![Main Page](/images/main_page_(overview).png)
+![IDE Overview](/images/ide-illustration.png)
 
 - **Top bar**: Contains the menu, open tabs (files), real-time collaborator count for the current file and the entire project, and access to project history.
 - **Left sidebar**: Switch between the directory tree, full-text search, and semantic search.

@@ -8,7 +8,7 @@ title: 工作区
 
 ## 界面总览
 
-![主页面](/images/main_page_(overview).png)
+![IDE 概览](/images/ide-illustration.png)
 
 - **顶部导航栏**：包含菜单按钮、打开的标签页（Tab）、当前文件及整个项目的在线协作人数，以及项目历史访问入口。
 - **左侧工作面板**：在目录树、全文搜索、语义搜索之间切换。
