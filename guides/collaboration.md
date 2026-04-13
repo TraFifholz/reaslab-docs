@@ -8,11 +8,18 @@ Lean projects rarely happen in isolation. ReasLab supports synchronous editing a
 
 ## Invite teammates
 
-![Share Project with collaborators](/images/share-dialog.png)
+![Share Dialog](/images/share_dialog.png)
 
-- Click **Share** in the top bar to open the sharing dialog.
-- Generate links with view, edit, or manage permissions depending on the level of access you need.
-- Update existing members and adjust roles directly from the same dialog.
+Click **Share** in the top bar to open the sharing dialog.
+
+You can share the project in two ways:
+
+- **Email sharing**: Enter email addresses in the text field, separated by Enter or commas. Choose permission as read-only or editable.
+- **Share link**: Two different links are generated based on different permission levels.
+
+You can also view all collaborators in this dialog — the right side shows each person's permission: read-only, editable, or everyone.
+
+You can choose whether to share AI chat history. Checking the checkbox opens a detailed configuration page where you decide which records will be shared.
 
 ## Real-time sessions
 

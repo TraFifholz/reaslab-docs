@@ -62,3 +62,5 @@ For more advanced Git operations (branch management, commit history, conflict re
 ## Join via Share Link
 
 - If you're joining someone else's project and have a share link, sign in to your account and open the link to create and enter the project with the appropriate permissions.
+
+For detailed collaboration features, see the [Collaboration guide](/guides/collaboration).
