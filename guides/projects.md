@@ -24,7 +24,7 @@ For general-purpose scientific writing or when you want to build your own struct
 ![Creating a Blank Project](/images/new_project.png)
 - **①** Click this to switch to the **New Project** tab.
 - **②** Enter your **Project Name** here.
-- **③** Configure your new project in this area, template type, and other settings.
+- **③** Configure your new project in this area — select the Lean toolchain version, template type, and other settings.
 - **④** When everything is ready, click this button to create the project.
 
 ### 2. Using Math Modeling Templates
