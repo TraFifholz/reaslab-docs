@@ -47,13 +47,13 @@ Configure authentication for accessing private repositories:
 
 ## Import from Git repositories
 
-![Import from Git](/images/import_from_git.png)
-
 Create new ReasLab projects from existing Git repositories:
 
-- **①** Click the **Git** tab to switch to the Git import interface.
-- **②** Enter your repository details — paste any Git URL to import from other platforms, and configure project settings.
-- **③** Link your **GitHub account** to browse and import projects directly from your repositories. Imports the repository's default branch.
+1. **GitHub integration**: Link your GitHub account to automatically list your Lean repositories
+2. **Manual import**: Paste any Git URL to import from other platforms
+3. Imports the repository's default branch.
+
+For detailed import instructions, see the [Projects & Imports guide](/guides/projects).
 
 ## Current limitations
 
@@ -73,7 +73,5 @@ The Git integration provides essential synchronization functionality with some l
 - ❌ Advanced Git operations (rebase, stash, cherry-pick)
 - ❌ Git diff visualization
 - ❌ Commit message customization
-
-
 
 For advanced Git operations beyond basic sync, use external Git tools alongside ReasLab's collaborative editing environment.
