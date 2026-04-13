@@ -50,10 +50,15 @@ Start formal verification projects with pre-configured Lean 4 environments.
 
 ## Import from Git
 
-![Import Git](/images/import-git.png)
+![Import Git](/images/import_from_git.png)
 
-1. Paste any Git URL on the import page for manual setup.
-2. If you sign in with GitHub, your repositories appear automatically; otherwise, link GitHub in Account Settings.
+Create new ReasLab projects from existing Git repositories:
+
+- **①** Click the **Git** tab to switch to the Git import interface.
+- **②** Enter your repository details — paste any Git URL to import from other platforms, and configure project settings.
+- **③** Link your **GitHub account** to browse and import projects directly from your repositories. Imports the repository's default branch.
+
+For more advanced Git operations (branch management, commit history, conflict resolution), see the [Git Integration guide](/guides/git-integration).
 
 ## Join via Share Link
 
