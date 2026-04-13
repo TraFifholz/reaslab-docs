@@ -36,7 +36,7 @@ Ideal for competition participants, these templates come with problem statements
 
 ### 3. Using Optimization Modeling Templates
 Quickly bootstrap optimization problems with mathematical models and solver configurations.
-![Optimization Modeling Templates](/images/optimization-templeate.png)
+![Optimization Modeling Templates](/images/model-template.png)
 - **①** Buttons to navigate to the **Optimization Modeling** template area — includes top and left navigation buttons.
 - **②** Filter templates by **categories** to quickly find suitable templates.
 - **③** Available templates are shown here — click to preview template details, then click **Use Template** to create a project from the template.
