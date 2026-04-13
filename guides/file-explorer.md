@@ -8,8 +8,6 @@ The File Explorer and Search functionalities provide a comprehensive interface f
 
 ## File Explorer
 
-![File Explorer](/images/file-explorer.png)
-
 The system provides a clear project tree layout on the left panel. From here you can:
 
 - **Create Files/Directories**: Click on the plus icon on the header to create new files or folders at any level of the directory hierarchy.
