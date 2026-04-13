@@ -6,6 +6,15 @@ title: Projects & Imports
 
 This guide covers creating a fresh workspace, importing existing repositories, and joining shared projects via links. ReasLab supports various specialized project templates tailored to different use cases.
 
+After logging in, you land on the Projects page where you can view and manage all your projects.
+
+![Projects Page](/images/project_page.png)
+
+- **① Project Management tab**: Manage all your projects — filter, archive, or leave shared projects.
+- **② Create Project tab**: Start a new project from scratch or from a template.
+- **③ Filter**: Switch between **All Projects**, **Owned by You**, **Shared with You**, and **Archived** to keep your workspace organized.
+- **④ Send Feedback**: Encounter any issues? Click this button to submit feedback — it will be filed as a GitHub issue automatically.
+
 ## Create a new project
 
 There are multiple ways to start your journey in ReasLab, depending on whether you want a clean slate or a pre-configured environment.
