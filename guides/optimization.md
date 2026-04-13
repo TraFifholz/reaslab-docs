@@ -36,7 +36,9 @@ You can navigate through nine major categories and 173 sub-categories of optimiz
 ![Optimization Chat Interaction](../reference/images/opt_image6.png)
 
 ## Sample Project
-*(Project link placeholder)*
+
+You can view a complete sample project here:
+[Optimization Modeling Sample Project](https://model.reaslab.io/share/2QqZFOVxRuaAcPKvPlDbqgR4cfd5c.MTE4.Y2NhNzE1ZGQtZGRlZC00NjI4LTg5MTItMGFhZWQ4MDFiZDNh)
 
 ## Example Video
 

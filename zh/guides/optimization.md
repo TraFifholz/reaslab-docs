@@ -36,7 +36,9 @@ title: 优化建模智能体
 ![实际对话流程](../../reference/images/opt_image6.png)
 
 ## 示例项目
-*(项目链接占位符)*
+
+您可以参考以下示例项目以了解预期交付效果：
+[优化建模示例项目](https://model.reaslab.io/share/2QqZFOVxRuaAcPKvPlDbqgR4cfd5c.MTE4.Y2NhNzE1ZGQtZGRlZC00NjI4LTg5MTItMGFhZWQ4MDFiZDNh)
 
 ## 范例视频
 
