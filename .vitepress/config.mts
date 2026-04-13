@@ -12,7 +12,7 @@ function getSidebarEn() {
     {
       text: "Basic",
       items: [
-        { text: "File Explorer & Search", link: "/guides/file-explorer" },
+        { text: "Workspace", link: "/guides/file-explorer" },
         { text: "Collaboration", link: "/guides/collaboration" },
         { text: "Markdown", link: "/guides/markdown" },
         { text: "LaTeX", link: "/guides/latex" },
@@ -55,7 +55,7 @@ function getSidebarZh() {
     {
       text: "基础功能",
       items: [
-        { text: "文件资源管理器与搜索", link: "/zh/guides/file-explorer" },
+        { text: "工作区", link: "/zh/guides/file-explorer" },
         { text: "协作", link: "/zh/guides/collaboration" },
         { text: "Markdown", link: "/zh/guides/markdown" },
         { text: "LaTeX", link: "/zh/guides/latex" },
