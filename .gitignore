@@ -27,15 +27,6 @@ Thumbs.db
 .vscode/*
 !.vscode/extensions.json
 
-# Local assistant / helper files
-AGENTS.md
-CLAUDE.md
-.claude/
-docs/superpowers/
-new_image/
-start_docs.ps1
-stop_docs.ps1
-
 # macOS resource forks
 ._*
 .DS_Store

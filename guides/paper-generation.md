@@ -29,7 +29,6 @@ To get the best results from the agent, the recommended workflow is:
 1. **Prompt Input**: Provide an initial natural-language prompt describing the research or paper-writing task.
 2. **Plan Generation**: The Copilot first returns a preliminary research plan.
 3. **User Feedback**: You can request detailed adjustments, or type `Continue` to let the agent proceed.
-![Copilot Interaction Flow](../reference/images/paper_image6.png)
 4. **Iterative Execution**: The Copilot carries out the subtasks according to the plan, and after each stage it provides the generated content together with a summary of the next step.
 5. **Manual Correction**: If part of the generated pipeline or subsystem is not meeting expectations, you can explicitly invoke a specific `@` command such as `@experiment` to focus on and improve that area.
 6. **Final Output**: The Copilot gathers all content and generates the final PDF version of the paper.
