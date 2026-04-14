@@ -26,6 +26,7 @@ Thumbs.db
 .idea/
 .vscode/*
 !.vscode/extensions.json
+.claude/
 
 # macOS resource forks
 ._*
