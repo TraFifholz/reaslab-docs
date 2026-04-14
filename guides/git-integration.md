@@ -53,6 +53,8 @@ Create new ReasLab projects from existing Git repositories:
 2. **Manual import**: Paste any Git URL to import from other platforms
 3. Imports the repository's default branch.
 
+For detailed import instructions, see the [Projects & Imports guide](/guides/projects).
+
 ## Current limitations
 
 The Git integration provides essential synchronization functionality with some limitations:
@@ -71,7 +73,5 @@ The Git integration provides essential synchronization functionality with some l
 - ❌ Advanced Git operations (rebase, stash, cherry-pick)
 - ❌ Git diff visualization
 - ❌ Commit message customization
-
-
 
 For advanced Git operations beyond basic sync, use external Git tools alongside ReasLab's collaborative editing environment.
