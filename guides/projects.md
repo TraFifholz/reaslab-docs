@@ -29,14 +29,14 @@ Suitable for general scientific writing or custom project structures. Usually, y
 
 ### 2. Creating from a Math Modeling Template
 Designed for competition participants. These templates come with the problem background and report structure.
-![Math Modeling Templates](../reference/images/math_image1.png)
-- In the Templates area, choose the **Math Modeling Contests** category.
-- Select a specific competition problem to view its details.
-- Click **Use Template** to instantiate the project.
+![Math Modeling Templates](/images/model-template.png)
+- **①** Buttons to navigate to the **Math Modeling** template area — includes top and left navigation buttons.
+- **②** Filter suitable templates by **categories**.
+- **③** The available templates appear here. Open one to preview its content, then click **Use Template** to create the corresponding project.
 
 ### 3. Creating from an Optimization Modeling Template
 Quickly start optimization problems with mathematical models and solver configuration included. The system provides 9 major categories and 173 subcategories of optimization templates. You can use the tree view to locate a suitable template, then click **Use Template** to create your own project.
-![Optimization Modeling Templates](/images/model-template.png)
+![Optimization Modeling Templates](/images/optimization-templeate.png)
 - **①** Buttons to navigate to the **Optimization Modeling** template area — includes top and left navigation buttons.
 - **②** Filter suitable templates by **categories**.
 - **③** The available templates appear here. Open one to preview its content, then click **Use Template** to create the corresponding project.
